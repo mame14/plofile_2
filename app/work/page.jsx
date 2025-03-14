@@ -48,7 +48,7 @@ const projects = [
   },
   {
     num: "03",
-    category: "fronted",
+    category: "フロントエンド",
     title: "project 3",
     description: "LP制作",
     stack: [{ name: "Html" }, { name: "Css" }, { name: "Javascript" }],
