@@ -53,13 +53,19 @@ const experience = {
     "Web制作者として、モダンな技術とクリエイティブなアプローチで あなたのプロジェクトを実現します。",
   items: [
     {
-      company: "e-ラーニング学習、progate",
+      company: "learning",
+      position: "e-ラーニング学習、progate",
       duration: "Winter 2023",
     },
     {
       company: "開発案件",
       position: "開発案件において、主に詳細設計、テスターを経験",
       duration: "2024 - 2025",
+    },
+    {
+      company: "",
+      position: "",
+      duration: "",
     },
     {
       company: "",

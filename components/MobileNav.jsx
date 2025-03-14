@@ -1,6 +1,5 @@
 "use client";
 
-import { fromJSON } from "postcss";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";

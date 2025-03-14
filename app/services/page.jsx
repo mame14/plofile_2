@@ -7,27 +7,34 @@ const services = [
   {
     num: "01",
     title: "web Development",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description:
+      "未経験ながらも、フロントエンド開発・Web制作・LP制作を中心に、デザイン性と機能性を兼ね備えたWebサイトを制作しています。",
     href: "",
   },
   {
     num: "02",
-    title: "UI/UX Design",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "LP制作",
+    description:
+      "未経験ながらも、フロントエンド開発・Web制作・LP制作を中心に、デザイン性と機能性を兼ね備えたWebサイトを制作しています。",
+
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "フロントエンド開発",
+    description:
+      "未経験ながらも、フロントエンド開発・Web制作・LP制作を中心に、デザイン性と機能性を兼ね備えたWebサイトを制作しています。",
+
     href: "",
   },
-  {
-    num: "04",
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    href: "",
-  },
+  // {
+  //   num: "04",
+  //   title: "SEO",
+  //   description:
+  //     "未経験ながらも、フロントエンド開発・Web制作・LP制作を中心に、デザイン性と機能性を兼ね備えたWebサイトを制作しています。",
+
+  //   href: "",
+  // },
 ];
 
 import { motion } from "framer-motion";
