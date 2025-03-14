@@ -23,7 +23,7 @@ const projects = [
   {
     num: "01",
     category: "システム開発",
-    title: "project 1",
+    title: "production 1",
     description: "自動販売機システム",
     stack: [
       { name: "Html" },
@@ -39,7 +39,7 @@ const projects = [
   {
     num: "02",
     category: "フロントエンド",
-    title: "project 2",
+    title: "production 2",
     description: "LP制作",
     stack: [{ name: "Html" }, { name: "Css" }, { name: "Javascript" }],
     image: "/assets/work/cafe3.png",
@@ -54,7 +54,7 @@ const projects = [
     stack: [{ name: "Html" }, { name: "Css" }, { name: "Javascript" }],
     image: "/assets/work/cafe2.png",
     live: "",
-    github: "",
+    github: "https://github.com/mame14/todo-app.git",
   },
 ];
 
@@ -87,7 +87,7 @@ export const Work = () => {
               </div>
               {/* project category */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+                {project.category} production
               </h2>
               {/* project description */}
               <p className="text-white/60">{project.description}</p>

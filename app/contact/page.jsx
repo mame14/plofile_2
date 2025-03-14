@@ -47,7 +47,7 @@ export const Contact = () => {
       }}
       className="py-6"
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto width-[80%]">
         <div className="flex flex-col xl:flex-row gap-[30px]">
           {/* form */}
           <div className="xl:w-[54%] order-2 xl:order-none">
@@ -65,16 +65,20 @@ export const Contact = () => {
                 <Input type="phone" placeholder="Phone number" />
               </div>
               {/* select */}
+<<<<<<< HEAD
               <Select className="w-full">
+=======
+              <Select>
+>>>>>>> 6b169bd ("work page Content Change")
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Select a service" />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="est">コーディング</SelectItem>
-                    <SelectItem value="est">Web制作</SelectItem>
-                    <SelectItem value="cst">LP制作</SelectItem>
+                    <SelectItem value="code">コーディング</SelectItem>
+                    <SelectItem value="web">Web制作</SelectItem>
+                    <SelectItem value="lp">LP制作</SelectItem>
                     {/* <SelectItem value="mst">UI/UX Design</SelectItem> */}
                   </SelectGroup>
                 </SelectContent>
@@ -91,7 +95,11 @@ export const Contact = () => {
             </form>
           </div>
           {/* info */}
+<<<<<<< HEAD
           <div className="flex flex-1 items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0 xl:mr-10">
+=======
+          <div className="flex flex-1 items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0 xl:mr-15">
+>>>>>>> 6b169bd ("work page Content Change")
             <ul className="flex flex-col gap-10">
               {info.map((item, index) => {
                 return (

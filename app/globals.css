@@ -126,7 +126,7 @@
 
 @layer base {
   body {
-    @apply bg-primary text-white leading-loose;
+    @apply bg-primary text-white leading-loose overflow-x-hidden;
     font-family: var(--font-jetbrainsMono);
     padding: 0 30px;
   }
@@ -135,7 +135,12 @@
       padding: 0 10px;
     }
   }
-  @media (min-width: 1024px) {
+  @media (min-width: 641px) and (max-width: 1024px) {
+    body {
+      padding: 0 30px;
+    }
+  }
+  @media (min-width: 1025px) {
     body {
       padding: 0 90px;
     }
