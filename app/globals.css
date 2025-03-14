@@ -1,5 +1,5 @@
-/* @tailwind base;
-@tailwind components; */
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
 @import "tailwindcss";
@@ -27,7 +27,7 @@
   --secondary-foreground: oklch(0.208 0.042 265.755);
   --muted: oklch(0.968 0.007 247.896);
   --muted-foreground: oklch(0.554 0.046 257.417);
-  --accent: oklch(0.968 0.007 247.896);
+  --accent: #7efdff;
   --accent-foreground: oklch(0.208 0.042 265.755);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
@@ -48,7 +48,6 @@
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.869 0.022 252.894);
-  /* --font-jetbrainsMono: "JetBrains Mono", monospace; */
 }
 
 .dark {
@@ -100,7 +99,7 @@
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-accent: var(--accent);
-  /* --color-accent-foreground: var(--accent-foreground); */
+  --color-accent-foreground: var(--accent-foreground);
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
   --color-border: var(--border);
@@ -129,5 +128,31 @@
   body {
     @apply bg-primary text-white leading-loose;
     font-family: var(--font-jetbrainsMono);
+    padding: 0 30px;
+  }
+  @media (min-width: 640px) {
+    body {
+      padding: 0 10px;
+    }
+  }
+  @media (min-width: 1024px) {
+    body {
+      padding: 0 90px;
+    }
+  }
+  .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+  }
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+  .h3 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+  }
+  .text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+  }
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #7efdff;
   }
 }
