@@ -52,7 +52,7 @@ const projects = [
     title: "production 3",
     description: "todo App",
     stack: [{ name: "ReactJs" }, { name: "Tailwindcss" }],
-    image: "/assets/work/cafe2.png",
+    image: "/assets/work/todo-list.png",
     live: "",
     github: "https://github.com/mame14/todo-app.git",
   },
