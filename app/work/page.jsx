@@ -49,9 +49,9 @@ const projects = [
   {
     num: "03",
     category: "フロントエンド",
-    title: "project 3",
-    description: "LP制作",
-    stack: [{ name: "Html" }, { name: "Css" }, { name: "Javascript" }],
+    title: "production 3",
+    description: "todo App",
+    stack: [{ name: "ReactJs" }, { name: "Tailwindcss" }],
     image: "/assets/work/cafe2.png",
     live: "",
     github: "https://github.com/mame14/todo-app.git",
